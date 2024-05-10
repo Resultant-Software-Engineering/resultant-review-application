@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ReviewApplicationRails</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+
+    
+  </head>
+
+  <body>
+    <main class="container mx-auto py-4 flex flex-col bg-gray-100 min-h-screen">
+      <%= yield %>
+    </main>
+  </body>
+</html>
